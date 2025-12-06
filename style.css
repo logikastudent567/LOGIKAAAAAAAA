@@ -1,0 +1,113 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: purple;
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+    height: 50px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin: 3px 25px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+main{
+    text-align: center;
+}
+.chanse{
+    background-color: grey;
+    border: 1px solid grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course a{
+    border: 1px solid grey;
+    font-size: 20px;
+}
+.course img{
+    height: 250px;
+    width: 250px;
+
+}
+.teachers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vvv{
+    height: 205px;
+    width: 250px;
+    
+}
+.about{
+    display: flex;
+    align-items: center;
+}
+.text p{
+    width: 574px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+}
+footer{
+background-color: blueviolet;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.reviews{
+    padding-left: 50px;
+
+}
+.review{
+    display: flex;
+    
+    align-items: center;
+}
+.review p{
+    margin-left: 20px;
+}
+
+.locat p::before{
+      content: url(https://learn.logikaschool.com/uploads/student/2888423/692b020985f6d.png);
+}
+footer{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+
+}
+.number{
+    /*display: flex;*/
+}
+.soc{
+    /*display: flex;*/
+}
