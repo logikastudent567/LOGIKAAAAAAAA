@@ -2,6 +2,7 @@ body{
     background-color: white;
     margin: 0;
     padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 header{
     background-color: purple;
@@ -9,6 +10,7 @@ header{
     padding: 30px 0;
     text-align: center;
     height: 50px;
+    color: white;
 }
 .nav-link{
     text-decoration: none;
@@ -27,21 +29,25 @@ main{
     text-align: center;
 }
 .chanse{
-    background-color: grey;
-    border: 1px solid grey;
+    background-color: purple;
     text-decoration: none;
     font-size: 20px;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 15px;
 }
 
 .courses{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .course a{
     border: 1px solid grey;
     font-size: 20px;
+    padding: 3px 10px;
 }
 .course img{
     height: 250px;
@@ -52,6 +58,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .vvv{
@@ -60,40 +67,63 @@ main{
     
 }
 .about{
+    margin-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 .text p{
+    font-size: 20px;
     width: 574px;
 }
 .location{
     display: flex;
     justify-content: center;
+    gap: 35px;
 }
 footer{
-background-color: blueviolet;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 30px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 35px;
 }
 .cost{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 25px;
 }
-.reviews{
-    padding-left: 50px;
 
+.costs img{
+    height: 259px;
+    box-shadow: 0 1px 7px 3px blueviolet;
+}
+
+.costs p{
+    font-size: 20px;
+}
+
+.reviews{
+    padding-left: 35%;
 }
 .review{
-    display: flex;
-    
+    display: flex;    
     align-items: center;
+    margin-bottom: 20px;
 }
+
 .review p{
     margin-left: 20px;
+    font-size: 20px;
+}
+
+.review img{
+    height: 180px;
+    width: 180px;
 }
 
 .locat p::before{
